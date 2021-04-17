@@ -9,7 +9,7 @@ const Post = ({ img, title, description }) => {
   const handlePress = () => {
     navigation.navigate("postdetails", { img, title, description });
   };
-  console.log("🚀 ~ file: Post.js ~ line 6 ~ Post ~ description", description);
+
   return (
     <View>
       <Card>
